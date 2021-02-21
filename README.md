@@ -1,5 +1,35 @@
 # React frontend assignment
 
+![](./unit.gif)
+
+## installation
+
+### Run
+```
+git clone [...]
+cd [...]
+yarn install
+yarn start
+```
+
+### Test
+
+clone, yarn like previously then using Jest for testing
+
+```
+yarn test
+```
+
+### code
+
+![](./structure.png)
+
+Differents components :
+- Start from App.js
+- Then, the main component is MyTable.js
+then MyButton, MyLoading and MyErrorMessage are the other components
+- utils.js contains some functions for Mytable components
+
 ## Description
 
 Your task is to implement a component or a set of components allowing the users to fetch and display change history of **users** and **projects** in separate tables according to the designs and requirements below. You can use the provided packages and add new ones if necessary. Please provide unit tests for your code.
